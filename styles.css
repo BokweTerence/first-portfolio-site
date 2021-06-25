@@ -1,0 +1,838 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.header-section {
+    background-color: rgb(128, 128, 199);
+    width: 100%;
+    height: 50vh;
+    position: fixed;
+}
+
+.ttlenav {
+    display: flex;
+}
+
+.navigation-row {
+    margin-left: 500px;
+}
+.header-section h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 50px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    padding-left: 700px;
+    margin-bottom: 500px;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.jobs img {
+    width: 200px;
+    height: 200px;
+    margin-left: -40px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.jobs h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+}
+.space {
+    background-color: rgb(42, 42, 99);
+    width: 100%;
+    height: 50vh;
+}
+
+.space h3 {
+    color: #fff;
+    padding-top: 120px;
+    padding-left: 565px;
+    text-transform: capitalize;
+}
+
+.me {
+    padding-top: 80px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+
+.medesign {
+    border: 1px solid;
+    height: 150px;
+    width: 250px;
+    margin-left: 140px;
+    margin-right: 20px;
+    background-color: rgb(128, 128, 199);
+}
+
+.medevelope {
+    border: 1px solid;
+    height: 150px;
+    width: 250px;
+    margin-right: 20px;
+    background-color: rgb(128, 128, 199);
+}
+
+.medeploy {
+    border: 1px solid;
+    height: 150px;
+    width: 250px;
+    margin-right: 20px;
+    background-color: rgb(128, 128, 199);
+
+}
+
+.memaintain {
+    border: 1px solid;
+    height: 150px;
+    width: 250px;
+    margin-right: 20px;
+    background-color: rgb(128, 128, 199);
+}
+
+.me-section {
+    background-color: rgb(108, 112, 106);
+    width: 100%;
+    height: 50vh;
+}
+
+.about-section {
+    display: flex;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 60vh;
+}
+
+.about {
+    width: 50%;
+    height: 60vh;
+}
+
+.about-photo img {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.about h2 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+
+.about p {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.resume {
+    background-color: darkgrey;
+    width: 100%;
+    height: 50vh;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.skills {
+    background-color: rgb(19, 54, 83);
+    width: 100%;
+    height: 150vh;
+}
+
+.portfolio {
+    background-color: darkslategray;
+    width: 100%;
+    height: 50vh;
+}
+
+.myworks {
+    background-color: dimgray;
+    width: 100%;
+    height: 120vh;
+}
+.myworks h2 {
+     padding-top: 50px;
+}
+
+
+.do {
+    display: flex;
+}
+.do .temp1 {
+    width: 350px;
+    height: 350px;
+    background-image: url(./img/item-1.jpg);
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+.do .temp2 {
+    width: 350px;
+    height: 350px;
+    background-image: url(./img/item-2.jpg);
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+.do .temp3 {
+    width: 350px;
+    height: 350px;
+    background-image: url(./img/item-3.jpg);
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+.contact {
+    background-color: rgb(49, 49, 68);
+    width: 100%;
+    height: 170vh;
+}
+
+@media only screen and (max-width: 968px) {
+
+    .navbar-toggle {
+        margin-right: 400px;
+    }
+
+    .fa .fa-bars {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .me {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .medesign {
+        border: 1px solid;
+        height: 150px;
+        width: 350px;
+        margin-left: 60px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .medevelope {
+        border: 1px solid;
+        height: 150px;
+        width: 350px;
+        margin-left: 60px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .medeploy {
+        border: 1px solid;
+        height: 150px;
+        width: 350px;
+        margin-left: 60px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    
+    }
+    
+    .memaintain {
+        border: 1px solid;
+        height: 150px;
+        width: 350px;
+        margin-left: 60px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .me-section {
+        background-color: rgb(108, 112, 106);
+        width: 100%;
+        height: 200vh;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        background-color: cornflowerblue;
+        width: 100%;
+        height: 120vh;
+    }
+    
+    .about {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+    }
+    
+    .about-photo img {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    
+    .about h2 {
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 30px;
+    }
+    
+    .about p {
+        text-align: center;
+        padding-top: 20px;
+        line-height: 25px;
+    }
+    
+    .resume {
+        background-color: darkgrey;
+        width: 100%;
+        height: 50vh;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
+    .skills {
+        background-color: rgb(19, 54, 83);
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .portfolio {
+        background-color: darkslategray;
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .myworks {
+        background-color: dimgray;
+        width: 100%;
+        height: 120vh;
+    }
+    .myworks h2 {
+         padding-top: 50px;
+    }
+    
+    
+    .do {
+        display: flex;
+    }
+    .do .temp1 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-1.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .do .temp2 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-2.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .do .temp3 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-3.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .contact {
+        background-color: rgb(49, 49, 68);
+        width: 100%;
+        height: 170vh;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    .header-section {
+        background-color: rgb(128, 128, 199);
+        width: 100%;
+        height: 50vh;
+        position: fixed;
+    }
+    
+    .ttlenav {
+        display: flex;
+    }
+    
+    .navigation-row {
+        margin-left: 500px;
+    }
+
+    .header-section h2 {
+        font-size: 24px;
+        color: #fff;
+        margin-left: 50px;
+        padding-top: 5px;
+        text-transform: uppercase;
+    }
+    
+    ul {
+        display: flex;
+        padding-left: 700px;
+        margin-bottom: 500px;
+        list-style: none;
+    }
+    
+    li {
+        padding: 10px;
+    }
+    
+    a {
+        color: #fff;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    
+    .jobs img {
+        width: 200px;
+        height: 200px;
+        margin-right: 400px;
+        margin-top: 10px;
+        border-radius: 100px;
+    }
+    
+    .jobs h4 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: 30px;
+        margin-right: 420px;
+    }
+
+    .space {
+        background-color: rgb(42, 42, 99);
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .space h3 {
+        color: #fff;
+        padding-top: 120px;
+        padding-left: 565px;
+        text-transform: capitalize;
+    }
+
+    .me {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .medesign {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .medevelope {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .medeploy {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    
+    }
+    
+    .memaintain {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .me-section {
+        background-color: rgb(108, 112, 106);
+        width: 100%;
+        height: 200vh;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        background-color: cornflowerblue;
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .about {
+        width: 100%;
+        height: 80vh;
+        text-align: center;
+    }
+    
+    .about-photo img {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: -95px;
+    }
+    
+    .about h2 {
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 30px;
+    }
+    
+    .about p {
+        width: 100%;
+        font-size: 16px;
+        padding-top: 20px;
+        line-height: 25px;
+    }
+    
+    .resume {
+        background-color: darkgrey;
+        width: 100%;
+        height: 50vh;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
+    .skills {
+        background-color: rgb(19, 54, 83);
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .portfolio {
+        background-color: darkslategray;
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .myworks {
+        background-color: dimgray;
+        width: 100%;
+        height: 120vh;
+    }
+    .myworks h2 {
+         padding-top: 50px;
+    }
+    
+    
+    .do {
+        display: flex;
+    }
+    .do .temp1 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-1.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .do .temp2 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-2.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .do .temp3 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-3.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .contact {
+        background-color: rgb(49, 49, 68);
+        width: 100%;
+        height: 170vh;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+
+    .header-section {
+        background-color: rgb(128, 128, 199);
+        width: 100%;
+        height: 50vh;
+        position: fixed;
+    }
+    
+    .ttlenav {
+        display: flex;
+    }
+    
+    .navigation-row {
+        margin-left: 500px;
+    }
+
+    .header-section h2 {
+        font-size: 24px;
+        color: #fff;
+        margin-left: 50px;
+        padding-top: 5px;
+        text-transform: uppercase;
+    }
+    
+    ul {
+        display: flex;
+        padding-left: 700px;
+        margin-bottom: 500px;
+        list-style: none;
+    }
+    
+    li {
+        padding: 10px;
+    }
+    
+    a {
+        color: #fff;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    
+    .jobs img {
+        width: 200px;
+        height: 200px;
+        margin-right: 400px;
+        margin-top: 10px;
+        border-radius: 100px;
+    }
+    
+    .jobs h4 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: 30px;
+        margin-right: 420px;
+    }
+
+    .space {
+        background-color: rgb(42, 42, 99);
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .space h3 {
+        color: #fff;
+        padding-top: 120px;
+        padding-left: 565px;
+        text-transform: capitalize;
+    }
+
+    .me {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .medesign {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .medevelope {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .medeploy {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    
+    }
+    
+    .memaintain {
+        border: 1px solid;
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 150px;
+        background-color: rgb(128, 128, 199);
+    }
+    
+    .me-section {
+        background-color: rgb(108, 112, 106);
+        width: 100%;
+        height: 200vh;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        background-color: cornflowerblue;
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .about {
+        width: 100%;
+        height: 80vh;
+        text-align: center;
+    }
+    
+    .about-photo img {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: -95px;
+    }
+    
+    .about h2 {
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 30px;
+    }
+    
+    .about p {
+        width: 100%;
+        font-size: 16px;
+        padding-top: 20px;
+        line-height: 25px;
+    }
+    
+    .resume {
+        background-color: darkgrey;
+        width: 100%;
+        height: 50vh;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
+    .skills {
+        background-color: rgb(19, 54, 83);
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .portfolio {
+        background-color: darkslategray;
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .myworks {
+        background-color: dimgray;
+        width: 100%;
+        height: 120vh;
+    }
+    .myworks h2 {
+         padding-top: 50px;
+    }
+    
+    
+    .do {
+        display: flex;
+    }
+    .do .temp1 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-1.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .do .temp2 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-2.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .do .temp3 {
+        width: 350px;
+        height: 350px;
+        background-image: url(./img/item-3.jpg);
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    
+    .contact {
+        background-color: rgb(49, 49, 68);
+        width: 100%;
+        height: 170vh;
+    }
+    
+}
